@@ -37,8 +37,6 @@ function total() {
     prices.push(cart[i].itemPrice)
   }
   console.log(prices)
-  }
-
 }
 
 function removeFromCart(item) {
