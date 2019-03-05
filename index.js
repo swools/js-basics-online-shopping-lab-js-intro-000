@@ -60,4 +60,6 @@ function placeOrder(cardNumber) {
     function emptyCart() {
       cart = [];
     }
+    checkForCard();
+    emptyCart();
 }
