@@ -21,12 +21,12 @@ function viewCart() {
       if (cart.length === 1) {
         return `In your cart, you have ${cart[0].itemName} at $${cart[0].itemPrice}.`
       } else {
-        var string = []
+        var newArray = []
         for (var i = 0; i < (cart.length - 1); i++) {
-          string.push(`${cart[i].itemName} at ${cart[i].itemPrice}, `)
+          newArray.push(`${cart[i].itemName} at ${cart[i].itemPrice}, `)
         }
         
-          console.log(string);
+          console.log(newArray);
       }
     }
 }
