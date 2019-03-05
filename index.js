@@ -39,6 +39,7 @@ function total() {
   function add(a, b){
     a + b
   }
+  return prices.reduce(add)
 }
 
 function removeFromCart(item) {
