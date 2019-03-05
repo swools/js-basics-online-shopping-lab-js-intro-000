@@ -40,6 +40,7 @@ function total() {
 }
 
 function removeFromCart(item) {
+  var i = 0;
   while (item != )
   
   for (var i = 0; i < cart.length; i++) {
