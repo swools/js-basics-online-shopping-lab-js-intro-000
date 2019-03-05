@@ -36,7 +36,7 @@ function total() {
   for (var i = 0; i < cart.length; i++) {
     prices.push(cart[i].itemPrice)
   }
-  
+
 }
 
 function removeFromCart(item) {
